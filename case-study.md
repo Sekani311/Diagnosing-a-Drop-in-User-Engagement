@@ -15,6 +15,8 @@ GROUP BY 1
 ORDER BY 1;
 ```
 
+![Daily Signups](image/daily-signups.png)
+
 I grouped all users by their signup date and compared how many of them were marked as “activated.”
 
 **Insight:** Daily user signups showed a steady growth which proved to be high during the weekdays and low on weekends. Considering weekends are not so busy for most companies, the change is gradual over the span of a few months and did not seem to have contributed to the drop in engagement.
