@@ -15,7 +15,7 @@ GROUP BY 1
 ORDER BY 1;
 ```
 
-
+![daily signups](https://github.com/Sekani311/Diagnosing-a-Drop-in-User-Engagement/blob/main/images/daily-signups.png)
 
 
 I grouped all users by their signup date and compared how many of them were marked as “activated.”
