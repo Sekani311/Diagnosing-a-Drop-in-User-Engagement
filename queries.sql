@@ -12,6 +12,7 @@ GROUP BY 1
 ORDER BY 1;
 
 
+
 -- Hypothesis 2: Did Engagement Drop Differently Across Regions?
 -- Geographic Segmentation
   SELECT 
@@ -46,6 +47,7 @@ GROUP BY DATE_TRUNC('week', occurred_at):: DATE,
 ORDER BY DATE_TRUNC('week', occurred_at):: DATE;
 
 
+
 -- Hypothesis 3: Are Certain Devices Driving the Drop?
 -- Device Segmentation
   WITH device_type AS(
@@ -74,6 +76,7 @@ GROUP BY 1, 2, 3, 4, 5
 ORDER BY 5;
 
 
+
 -- Hypothesis 4: Weekly Engagement Trends by Device
 -- Engagement by Device Type
 SELECT 
@@ -98,6 +101,7 @@ ORDER BY
   week, device_type;
 
 
+
 -- Hypothesis 5: Could It Be a Tracking Issue?
 -- Feature Engagement
 SELECT 
@@ -109,6 +113,7 @@ SELECT
                                 'search_click_result_7','search_click_result_8','search_click_result_9','search_click_result_10') THEN user_id ELSE NULL END) AS search_click 
 FROM tutorial.yammer_events 
 GROUP BY 1;
+
 
 
 -- Hypothesis 6: Are Newer Users Disengaging Faster?
