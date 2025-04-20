@@ -63,6 +63,8 @@ GROUP BY DATE_TRUNC('week', occurred_at):: DATE,
 ORDER BY DATE_TRUNC('week', occurred_at):: DATE;
 ```
 
+![geographic location](https://github.com/Sekani311/Diagnosing-a-Drop-in-User-Engagement/blob/main/images/geographic-location.png)
+
 Countries were grouped into continents, and login activity was compared week by week.
 
 **Insight:** North America and Asia showed a dramatic fall-off in login activity around July end compared to other regions. This suggested that the issue might have been specific to certain regions possibly related to localized features, new product rollout issues, or holiday related factors.
@@ -101,6 +103,8 @@ JOIN device_type
 GROUP BY 1, 2, 3, 4, 5
 ORDER BY 5;
 ```
+
+
 
 I aggregated login activity by device (desktop, phone, tablet) and compared July vs. August.
 
