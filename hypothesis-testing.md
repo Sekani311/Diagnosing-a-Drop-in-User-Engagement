@@ -104,7 +104,7 @@ GROUP BY 1, 2, 3, 4, 5
 ORDER BY 5;
 ```
 
-
+![device type drop](https://github.com/Sekani311/Diagnosing-a-Drop-in-User-Engagement/blob/main/images/geographic-location.png)
 
 I aggregated login activity by device (desktop, phone, tablet) and compared July vs. August.
 
@@ -141,6 +141,8 @@ ORDER BY
   week, device_type;
 ```
 
+![device engagement](https://github.com/Sekani311/Diagnosing-a-Drop-in-User-Engagement/blob/main/images/device-engagement.png)
+
 I broke down login activity weekly and segmented it by device.
 
 **Insight:** The most severe drop in mobile usage happened in the last week of July. The sharp decline, especially among phone users, confirmed that the problem was highly time-specific and potentially tied to a mobile app release or feature rollout.
@@ -164,6 +166,8 @@ SELECT
 FROM tutorial.yammer_events 
 GROUP BY 1;
 ```
+
+![tracking code](https://github.com/Sekani311/Diagnosing-a-Drop-in-User-Engagement/blob/main/images/tracking-code.png)
 
 I compared volumes of different user actions week by week.
 
@@ -210,6 +214,8 @@ WHERE u.activated_at IS NOT NULL) z
 GROUP BY 1
 ORDER BY 1;
 ```
+
+![cohort analysis](https://github.com/Sekani311/Diagnosing-a-Drop-in-User-Engagement/blob/main/images/cohort-analysis.png)
 
 I calculated login engagement over time based on the week users first activated.
 
