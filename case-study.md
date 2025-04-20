@@ -15,7 +15,8 @@ GROUP BY 1
 ORDER BY 1;
 ```
 
-![Daily Signups](image/daily-signups.png)
+
+
 
 I grouped all users by their signup date and compared how many of them were marked as “activated.”
 
