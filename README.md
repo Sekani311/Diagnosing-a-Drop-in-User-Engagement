@@ -37,6 +37,11 @@ The process of ***Hypothesis Testing*** was employed in this analysis. It was im
 - Analyze engagement by user cohort (age since activation).
 - Check for possible tracking or data collection issues.
 
+For full details on the Exploratory Analysis for each hypothesis
+- [queries.sql](queries.sql) contains all investigation SQL codes
+- [hypothesis-testing.md](hypothesis-testing.md) contains the complementary excel charts and insights for query interpretation
+
+
 ### Conclusion
 
 Through SQL-based exploration across multiple dimensions, I observed the following key findings:
