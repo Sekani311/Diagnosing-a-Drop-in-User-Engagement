@@ -1,6 +1,6 @@
 # Diagnosing-a-Drop-in-User-Engagement
 
-![Frame](images/frame)
+![Frame](images/frame.jpg)
 
 ## Table of Content
 - [Project Overview](#project-overview)
